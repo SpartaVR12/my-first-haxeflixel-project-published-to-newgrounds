@@ -1,0 +1,20 @@
+1. Install Haxe 4.3.7 (WINDOWS INSTALLER) on https://haxe.org/download/version/4.3.7/
+
+2. After that, go to the windows search bar, type "cmd", then click "Run As Administrator". This opens the Command Prompt.
+
+3. When you are in the Command Prompt window, type in the following:
+haxelib install flixel 6.1.0
+haxelib install flixel-addons 3.3.2
+haxelib install openfl 9.4.1
+haxelib install lime 8.2.2
+
+(JUST REMEMBER: IF YOU HAVE OLDER VERSIONS OF THE HAXELIB STUFF, TYPE IN "haxelib upgrade".)
+(JUST REMEMBER: IF YOU WANT TO CHECK YOUR VERSIONS OF YOUR HAXELIB STUFF, TYPE IN "haxelib list".)
+
+4. If you want to compile (build) the project, do the following:
+
+1. Go to the Command Prompt app.
+2. Type in the Command Prompt "cd C:\Users\JohnDoe\Downloads\my-first-haxeflixel-project-published-on-newgrounds-main"
+3. After that, type in "lime test windows" or "lime build windows". It will build the project for you.
+
+That is how you install haxe, haxeflixel's components, and build the game. Goodbye!
